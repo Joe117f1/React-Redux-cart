@@ -1,0 +1,19 @@
+.title {
+  color: white;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.title h2 {
+  text-transform: uppercase;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
