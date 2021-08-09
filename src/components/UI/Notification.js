@@ -5,10 +5,10 @@ const Notification = (props) => {
 
   if (props.status === 'error') {
     specialClasses = classes.error;
-  };
+  }
   if (props.status === 'success') {
     specialClasses = classes.success;
-  };
+  }
 
   const cssClasses = `${classes.notification} ${specialClasses}`;
 

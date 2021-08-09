@@ -23,11 +23,11 @@ const App = () => {
     if (isInitialload) {
       isInitialload = false;
       return;
-    };
+    }
 
     if (cart.isChanged) {
       dispatchFunc(sendCartData(cart));
-    };
+    }
   }, [cart, dispatchFunc]);
 
   return (

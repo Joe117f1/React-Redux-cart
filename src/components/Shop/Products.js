@@ -24,7 +24,7 @@ const Products = () => {
               title={product.title}
               price={product.price}
               description={product.description}
-            />)
+            />);
         })}
       </ul>
     </section>
